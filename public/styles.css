@@ -1,0 +1,116 @@
+body {
+    background: rgb(13,115,119);
+    background: radial-gradient(circle, rgba(13,115,119,1) 0%, rgba(50,50,50,1) 75%, rgba(33,33,33,1) 100%);
+}
+
+
+
+#root {
+
+    height: 1000px;
+    width: 100%;
+}
+
+
+/* for login screen */
+.welcome-txt {
+    color: white;
+    text-align: center;
+    padding: 10% 0 0;
+}
+
+
+.header {
+    font-size: 3rem;
+    display: grid;
+    color: #14FFEC;
+    margin: 0;
+    padding: 0;
+    background-color: #323232;
+    text-align: center;
+}
+
+
+.head-title {
+    padding: .4rem 1rem 0;
+    font-weight: bolder;
+    
+}
+
+.spotify-ico {
+    color: #14FFEC;
+    position: relative;
+    left: 28%;
+    bottom: 50%;
+    width: 100px;
+    height: 100px;
+    font-size: 10rem;
+}
+
+
+
+.login-form {
+    width: 350px;
+    height: 400px;
+    background-color: #323232;
+    position: absolute;
+    left: 38%;
+    top: 45%;
+    padding-top: 10%;
+    border-radius: 10%;
+    border-style: solid;
+    border-color: white;
+    border-width: 2px;
+    opacity: 0.5;
+}
+
+.login-form:hover {
+    opacity: 1;
+}
+
+.login-btn {
+    text-align: center;
+}
+
+.button {
+    color: #323232;
+}
+
+
+/*styles for homepage*/
+
+
+
+
+
+
+.top-things {
+    position: relative;
+    right: 4%;
+}
+
+
+.Songs-card {
+    width: 400px;
+}
+
+img {
+    width: 50px;
+    border-radius: 50%
+}
+
+.search-div {
+    height: 100%;
+    max-width: 30%;
+    height: 100%;
+    background-color: black;
+    color: #14FFEC;
+    text-align: center;
+}
+
+.search-img {
+    border-style: solid;
+    border-color: #14FFEC;
+    border-width: .5px;
+}
+/* colors #212121 #323232 #0D7377 #14FFEC
