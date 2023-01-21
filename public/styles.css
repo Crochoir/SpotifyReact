@@ -20,28 +20,15 @@ body {
 }
 
 
-.header {
-    font-size: 3rem;
-    display: grid;
-    color: #14FFEC;
-    margin: 0;
-    padding: 0;
-    background-color: #323232;
-    text-align: center;
-}
 
 
-.head-title {
-    padding: .4rem 1rem 0;
-    font-weight: bolder;
-    
-}
+
 
 .spotify-ico {
     color: #14FFEC;
     position: relative;
     left: 28%;
-    bottom: 50%;
+    bottom: 30%;
     width: 100px;
     height: 100px;
     font-size: 10rem;
@@ -50,12 +37,14 @@ body {
 
 
 .login-form {
+    text-align: center;
     width: 350px;
     height: 400px;
     background-color: #323232;
     position: absolute;
-    left: 38%;
-    top: 45%;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     padding-top: 10%;
     border-radius: 10%;
     border-style: solid;
@@ -69,6 +58,8 @@ body {
 }
 
 .login-btn {
+    position: relative;
+    top: 30%;
     text-align: center;
 }
 
@@ -79,10 +70,117 @@ body {
 
 /*styles for homepage*/
 
+/*Header*/
 
+.header-icon{
+    position: relative;
+    top: 70px;
+}
 
+.head-title {
+    
+    font-weight: bolder;
+    position: relative;
+    top: 30px;
+    
+}
 
+.header {
+    font-size: 12rem;
+    display: grid;
+    color: #14FFEC;
+    padding: 0;
+    text-align: center;
+    height: 2em;
+    margin: auto;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    overflow: auto;
+    background: linear-gradient(315deg, #212121 3%, rgba(60,132,206,1) 38%, #0D7377 68%,  #323232 98%);
+    animation: gradient 15s ease infinite;
+    background-size: 400% 400%;
+    background-attachment: fixed;
+    z-index: 0;
+}
 
+.info-gather {
+    position: relative;
+    left: 40%;
+    width: 20%;
+    height: 70%;
+    width: fit-content;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 0%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    100% {
+        background-position: 0% 0%;
+    }
+}
+
+.wave {
+    background: rgb(255 255 255 / 25%);
+    border-radius: 900% 900% 0 0;
+    position: fixed;
+    width: 200%;
+    height: 5em;
+    animation: wave 10s -3s linear infinite;
+    transform: translate3d(0, 0, 0);
+    opacity: .1;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.wave:nth-of-type(2) {
+    bottom: -1.25em;
+    animation: wave 18s linear reverse infinite;
+    opacity: 0.1;
+}
+
+.wave:nth-of-type(3) {
+    bottom: -2.5em;
+    animation: wave 20s -1s reverse infinite;
+    opacity: 0.2;
+}
+
+@keyframes wave {
+    2% {
+        transform: translateX(1);
+    }
+
+    25% {
+        transform: translateX(-25%);
+    }
+
+    50% {
+        transform: translateX(-50%);
+    }
+
+    75% {
+        transform: translateX(-25%);
+    }
+
+    100% {
+        transform: translateX(1);
+    }
+}
+
+/*the rest*/
+
+.carousel-item {
+    text-align: center;
+    max-width: auto;
+    width: fit-content;
+}
+
+.carousel-container {
+    text-align: center;
+}
 
 .top-things {
     position: relative;
@@ -92,25 +190,38 @@ body {
 
 .Songs-card {
     width: 400px;
+    padding: 10px;
 }
+
+
 
 img {
     width: 50px;
     border-radius: 50%
 }
 
+
+
 .search-div {
     height: 100%;
-    max-width: 30%;
+    width: 50%;
     height: 100%;
     background-color: black;
     color: #14FFEC;
     text-align: center;
+    margin: auto;
+    border-radius: 0 0 10% 10%;
 }
 
 .search-img {
     border-style: solid;
     border-color: #14FFEC;
     border-width: .5px;
+    width: 150px;
+}
+
+
+.test-image{ 
+    max-width: 10px;
 }
 /* colors #212121 #323232 #0D7377 #14FFEC

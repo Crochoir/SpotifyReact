@@ -1,0 +1,53 @@
+.root {
+    width: auto;
+    text-align: center;
+}
+
+.login-form {
+    width: 80%;
+}
+
+.spotify-ico {
+    position: relative;
+    bottom: 10%;
+    left: 25%;
+}
+
+.header-icon {
+    
+    position: relative;
+    top: 60%;
+}
+
+.header {
+    height: 2.5em;
+}
+
+.head-title {
+    position: relative;
+    top: 75%;
+}
+
+.info-gather {
+    width: fit-content;
+    height: 35px;
+    top: 20px;
+    left: 26%;
+}
+
+.search-div{
+    width: auto;
+}
+
+.search-img{
+    width: 100px;
+}
+
+
+.Songs-card {
+    width: 100px;
+}
+
+.card-img {
+    width: 100px;
+}

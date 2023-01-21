@@ -1,7 +1,8 @@
 import React from "react";
-import Login from "./components/Login"
+import Login from "./Login.jsx"
 import Header from "./components/Header";
-import Homescreen from "./components/Homescreen";
+import Homescreen from "./Homescreen.jsx";
+
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import {Container, InputGroup, FormControl, Button, Row, Card} from 'react-bootstrap';
 //import {useState, useEffect } from "react";
